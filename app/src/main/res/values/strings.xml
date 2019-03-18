@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">My App</string>
+    <string name="IDNpemesan">Nama Pemesan</string>
+    <string name="IDNinputnama">Masukkan Nama</string>
+    <string name="IDNmenukopi">Menu Kopi :</string>
+    <string name="IDNsajian">Sajian :</string>
+    <string name="IDNhangat">Hangat</string>
+    <string name="IDNdingin">Dingin</string>
+    <string name="IDNbahasa">Bahasa :</string>
+    <string name="IDNtotal">Total :</string>
+    <string name="IDNbayar">Bayar :</string>
+    <string name="IDNorder">Pesan</string>
+
+    <string name="ENpemesan">Customer Name</string>
+    <string name="ENinputnama">Input Your Name</string>
+    <string name="ENmenukopi">Coffee Menu :</string>
+    <string name="ENsajian">Dish :</string>
+    <string name="ENhangat">Warm</string>
+    <string name="ENdingin">Cold</string>
+    <string name="ENbahasa">Language :</string>
+    <string name="ENtotal">Total :</string>
+    <string name="ENbayar">Pay :</string>
+    <string name="ENorder">Order</string>
+
+
 </resources>

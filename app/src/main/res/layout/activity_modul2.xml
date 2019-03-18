@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modul2">
+
+    <TextView
+        android:id="@+id/namapemesan"
+        android:text="@string/IDNpemesan"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/inputnama"
+        android:hint="@string/IDNinputnama"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namapemesan"/>
+
+    <LinearLayout
+        android:id="@+id/linmenu"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/inputnama"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/menuid"
+            android:text="@string/IDNmenukopi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <CheckBox
+            android:id="@+id/arabica"
+            android:text="arabica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/robusta"
+            android:text="robusta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/american"
+            android:text="american"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linsajian"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/inputnama"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/IDNsajian"
+            android:id="@+id/sajian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/radiosajian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/hangat"
+                android:text="@string/IDNhangat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/dingin"
+                android:text="@string/IDNdingin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/inputnama"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bahasa"
+            android:text="@string/IDNbahasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/radiobahasa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:onClick="pilihbahasaind"
+                android:id="@+id/bindo"
+                android:text="Indonesia"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:onClick="pilihbahasaing"
+                android:id="@+id/bing"
+                android:text="Inggris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/counter"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/linmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/plus"
+            android:text="+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/textcount"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/min"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="pesan"
+        android:id="@+id/order"
+        android:layout_marginTop="20dp"
+        android:text="@string/IDNorder"
+        android:layout_below="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

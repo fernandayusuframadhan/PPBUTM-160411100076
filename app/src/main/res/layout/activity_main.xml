@@ -7,8 +7,10 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:layout_centerHorizontal="true"
         android:text="Fernanda Yusuf Ramadhan" />
 
@@ -20,5 +22,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
         android:text="Modul1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="Modul2" />
 
 </RelativeLayout>
