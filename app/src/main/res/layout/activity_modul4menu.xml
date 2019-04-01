@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Modul4menu">
 
+
     <TextView
         android:id="@+id/namapemesan"
         android:text="@string/IDNpemesan"
@@ -21,6 +22,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/namapemesan"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/inputnama"
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
 
 <!--    <LinearLayout
         android:id="@+id/linmenu"
@@ -161,7 +169,7 @@
         android:id="@+id/order"
         android:layout_marginTop="20dp"
         android:text="@string/IDNorder"
-        android:layout_below="@+id/bahasaa"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

@@ -32,7 +32,7 @@ public class Modul4 extends AppCompatActivity {
 
     public void signin(){
         String user = "yusuf";
-        String passs = "160411100076";
+        String passs = "76";
         String userr = username.getText().toString();
         String pasword = password.getText().toString();
 
