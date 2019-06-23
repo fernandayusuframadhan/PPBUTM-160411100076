@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Modul4pembayaran"></activity>
+        <activity android:name=".Modul4pembayaran" />
         <activity android:name=".Modul4isimenu" />
         <activity android:name=".Modul4about" />
         <activity android:name=".Modul4menu" />
@@ -20,6 +20,11 @@
         <activity android:name=".Modul1no2" />
         <activity android:name=".Modul1no1" />
         <activity android:name=".Modul1" />
+        <activity android:name=".ActivityProject" />
+        <activity android:name=".ActivityProject_detail" />
+        <activity android:name=".ActivityProject_insert" />
+        <activity android:name=".ActivityProject_PilihHardware" />
+        <activity android:name=".ActivityProject_PilihProcessor" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
